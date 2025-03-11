@@ -12,15 +12,7 @@
   
 * MENTOR :NEELA SANTOSH
 
-  A weather app  contains a user input field for the user, which takes the input of the city name. Once the user enters the city name and clicks on the button, then the API Request is been sent to the OpenWeatherMap and the response is been retrieved in the application which consists of weather, wind speed, description, etc.
-  Approach :
-  * Create the Weather App UI Structure using the HTML elements like <div>,<h1>,<input>,<button>.
-  * Once the structure is created, the styling properties for each element like padding, box-shadow, transition, attractive effects like hovering, etc are been 
-    applied.
-  * In the main JavaScript file, the overall behavior of the application is been defined.
-  * rstly, we are specifying the API URL of OpenWeatherMap. Then we are specifying the unique API key. By defaul,t the Weather of the Pune location is been shown 
-    when the application is loaded.
-  * Then by using the async function, we are returning the wwather of the city which is entered by the user. If the city is not valid, then an error message is 
-    been shown to the user.
-  * Once the details are fetched, then these details are been represented in the weatherShowFn().
-    Example: This example describes the basic implementation for a Weather App in HTML CSS and JavaScript.
+  DESCRIPTION:
+ To create a responsive webpage that dynamically loads and displays data from a public API (such as weather or news), I'll walk you through the full process with a weather API example. We'll make the webpage interactive and responsive using HTML, CSS, and JavaScript. Here's a structured approach to fulfill the deliverables.
+ This project focuses on creating a webpage that can retrieve and display dynamic data from a public API, specifically for weather information. The goal is to allow users to input a location (such as a city name) and receive real-time weather updates, such as temperature, humidity, wind speed, and weather conditions, all fetched from a publicly available weather API.The webpage will be interactive, with a simple, intuitive interface, and will dynamically update the content based on the user’s input.The core of the webpage is to integrate a public API that provides weather data. A popular choice for such an API is OpenWeatherMap, but there are many others like WeatherAPI, AccuWeather, and Weatherstack.The API will supply the necessary data based on the user's input (such as a city name or geographical coordinates) in JSON format.The webpage will request weather data from the API every time a user interacts with the page (e.g., enters a city name and clicks a button).
+Upon receiving the data, the page will dynamically update to show weather details without requiring a full page reload.The user will enter a city name or location in an input field, and upon clicking a button, the weather data for that location will be fetched from the API and displayed.The webpage will be mobile-friendly, ensuring it is responsive and adjusts to different screen sizes (desktop, tablet, and mobile).
